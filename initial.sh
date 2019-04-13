@@ -89,11 +89,5 @@ echo "PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\] \[
 echo "alias ll='ls --color -l'" >> /root/.bash_profile
 echo "CUSTOM MOTD"
 cat > /etc/motd <<-END
-  _                ____   _____
- | |              / __ \ / ____|
- | |__   _____  _| |  | | (___
- | '_ \ / _ \ \/ / |  | |\___ \
- | |_) | (_) >  <| |__| |____) |
- |_.__/ \___/_/\_\\\____/|_____/
- ============ Linux Containers
+  ide.felipeweb.dev
 END
